@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userinterfacegraph.FXMLDocumentController">
+   <children>
+      <Button layoutX="279.0" layoutY="87.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="122.0" text="Carregar Arquivo" />
+      <TextArea fx:id="areaTexto" layoutX="66.0" layoutY="131.0" prefHeight="391.0" prefWidth="536.0" />
+   </children>
+</AnchorPane>

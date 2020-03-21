@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userinterfacegraph.FXMLTentavivaController">
+   <children>
+      <Group id="canvasGroup" fx:id="canvasGroup" layoutX="299.0" layoutY="170.0" />
+      <Button layoutX="85.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="86.0" text="Button" />
+   </children>
+</AnchorPane>
